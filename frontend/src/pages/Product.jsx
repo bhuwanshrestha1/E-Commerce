@@ -87,7 +87,7 @@ const Product = () => {
           <b className='border border-gray-300 px-5 py-3 text-sm'>Description</b>
           <b className='border border-gray-300 px-5 py-3 text-sm'>Reviews (122)</b>
         </div>
-        <div className='flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500 border border-gray-300'>
+        <div className='flex flex-col gap-4  px-6 py-6 text-sm text-gray-500 border border-gray-300'>
               <p>
               Crafted with premium materials, this product combines durability with modern style. Whether you're heading out for a casual day or dressing up for an event, its versatile design fits any occasion effortlessly.
               </p>
