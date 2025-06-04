@@ -6,9 +6,9 @@ const Footer = () => {
     <div>
       <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
         <div>
-          <img src={assets.logo} className='mb-5 w-32' alt="" />
+          <img src={assets.logo1} className='mb-5 w-32' alt="" />
           <p className='w-full md:w-2/3 text-gray-600'>
-          Forever Clothing Co. brings timeless fashion to your everyday wardrobe, blending comfort with effortless style." 😎🛍️
+          Yelavi Clothing Co. brings timeless fashion to your everyday wardrobe, blending comfort with effortless style." 😎🛍️
           </p>
         </div>
 
@@ -34,7 +34,7 @@ const Footer = () => {
 
       <div>
         <hr />
-        <p className='py-5 text-sm text-center'>Copyright 2025@forever.com - All Right Reserved</p>
+        <p className='py-5 text-sm text-center'>Copyright 2025@yelavi.com - All Right Reserved</p>
       </div>
     </div>
   )
