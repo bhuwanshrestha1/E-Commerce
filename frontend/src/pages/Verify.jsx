@@ -4,6 +4,7 @@ import { ShopContext } from '../context/Shop'
 import { useSearchParams } from 'react-router'
 import axios from 'axios'
 import { toast } from 'react-toastify'
+import { useEffect } from 'react'
 
 const Verify = () => {
 
@@ -17,7 +18,7 @@ const Verify = () => {
     const verifyPayment = async () => {
         try {
             if(!token){
-                return null
+                return null;
             }
 
             const response = await axios.post(backendUrl + '/api/order/verifyStripe', {success,orderId},{headers:{token}})
@@ -36,6 +37,11 @@ const Verify = () => {
         }
 
     }
+
+    useEffect(()=>{
+        verifyPayment()
+    },[token])
+
   return (
     <div>
       
