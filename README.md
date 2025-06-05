@@ -59,7 +59,7 @@ Various React libraries for UI components
 
 # Installation
 1.Clone the repository:
-git clone (https://github.com/bhuwanshrestha1/Yelavi.git)
+
 git clone https://github.com/bhuwanshrestha1/Yelavi.git
 
 2.Install dependencies for both client and server:
